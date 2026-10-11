@@ -4,7 +4,7 @@ A fully functional, cost-effective no-code automation workflow designed to captu
 
 ## 🛠️ Tech Stack
 - **Workflow Engine:** Make.com (formerly Integromat)
-- **AI Model:** Google Gemini API (Free Tier / `gemini-1.5-flash`)
+- **AI Model:** Google Gemini API (Free Tier / `gemini-flash-latest`)
 - **Database/CRM:** Airtable
 - **Data Trigger:** Webhook (JSON payload)
 
