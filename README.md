@@ -12,7 +12,7 @@ A fully functional, cost-effective no-code automation workflow designed to captu
 1. **Webhook Trigger:** Receives raw lead data (Name, Email, Company, Budget, Challenge) via an HTTP POST request.
 2. **AI Analysis (Google Gemini):** The raw data is sent to the Gemini API with a strict prompt to act as an "expert digital agency manager". It analyzes the lead's potential and returns a structured response.
 3. **JSON Parsing:** The AI's text response is parsed to extract two specific variables: `score` (Integer) and `summary` (String).
-4. **CRM Logging (Airtable):** The parsed data, along with the original webhook data, is automatically mapped and saved as a new record in the Airtable "Octopi Leads" base.
+4. **CRM Logging (Airtable):** The parsed data, along with the original webhook data, is automatically mapped and saved as a new record in the Airtable "Innovative Leads" base.
 
 ## 📦 Sample JSON Payload (Webhook Input)
 ```json
